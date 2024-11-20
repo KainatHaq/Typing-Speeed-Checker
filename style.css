@@ -1,0 +1,113 @@
+body {
+    /* background-color: rgb(248, 251, 255); */
+ 
+    color: rgb(10, 5, 82);
+    text-align: center;
+    
+    background: linear-gradient(to right, rgb(210, 236, 244), rgb(215, 249, 243), rgb(212, 222, 255));
+
+
+    
+
+
+}
+  html{
+    font-size: 62.5%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+    font-family:serif;
+    font-weight: 900;
+    font-size: 5rem;
+    color: rgb(12, 12, 10);
+    margin-top: 8rem;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .timer, .errors, .accuracy,
+  .cpm, .wpm {
+    background-color: #8cb0b9;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: black 5px 8px 5px;
+  }
+  
+  .cpm, .wpm  {
+    display: none;
+  }
+  
+  .header_text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+  
+  .curr_time, .curr_errors,
+  .curr_accuracy, .curr_cpm,
+  .curr_wpm {
+    font-size: 2.5rem;
+  }
+  
+  .quote {
+    background-color: #afd0d5;
+    color: rgb(53, 4, 54);
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+  }
+  
+  .input_area {
+    background-color: #e3e0ce;
+    color:navy;
+    height: 80px;
+    width: 52%;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+  }
+  
+  .restart_btn {
+    display: none;
+    background-color: #234a49;
+    font-size: 1.8rem;
+    padding: 10px;
+    border: 0px;
+    color: aliceblue;
+    box-shadow:black 5px 8px 5px;
+  }
+  
+  .incorrect_char {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .correct_char {
+    color: darkgreen;
+  }
+
+  div {
+    text-align: center;
+  }
+
+
+
